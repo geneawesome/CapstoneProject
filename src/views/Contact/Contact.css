@@ -1,0 +1,54 @@
+.contactForm{
+    background-image: url(../../assets/BGcontact.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+.display-4{
+    color: black;
+}
+.sec_sp{
+    color: black;
+    line-height: 1.8;
+}
+
+.contact_form .form-control{
+    padding: 1.375rem .75rem;
+    line-height: 1.5;
+    color: black;
+    background-color:white;
+    border-radius: 0 ;
+    border: 1px solid black;
+
+
+}
+
+.color_sec {
+    font-weight: bolder;
+    font-size: 35px;
+  
+}
+.contact-details{
+    font-size: 22px;
+}
+
+.contact_form input.form-control{
+    margin-bottom: 2em;
+    height: calc(2.5em + .75rem + 2px);
+   
+}
+
+.contactButton{
+    color: black;
+    font-weight: bolder;
+    padding: 20px;    
+    font-size: 18px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.contactButton:hover{
+    color: rgb(220, 169, 74);
+    border: 2px solid black;
+}

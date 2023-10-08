@@ -1,0 +1,53 @@
+#about{
+    background-image: url(../../assets/AboutBg.jpg);
+    height: 100vh ;
+    display: flex;
+    align-items:center;
+    padding: 0 10%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.aboutTitle{
+    font-size: 56px;
+    font-weight: 700;
+    color: white;
+    line-height:1.2 ;
+}
+
+.aboutDescription{
+    font-size: 22px;
+    margin: 15px  0 30px;
+    color:white;
+}
+.btnReadMore{
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100%;
+    background:tan ;
+    border: 2px solid tan;
+    border-radius:8px;
+    font-size: 19px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    z-index: 1;
+    overflow:hidden;
+    transition:.5s;
+   
+}
+
+.btnReadMore:hover {
+    color:tan ;
+
+}
+
+
+
+
+
