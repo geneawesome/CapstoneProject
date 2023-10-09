@@ -2,7 +2,7 @@ import Home from "./views/Home/Home";
 import About from "./views/About/About";
 import Contact from "./views/Contact/Contact";
 import SignUp from "./views/SignUp/SignUp";
-import Products from "./views/Products/Products";
+import Services from "./views/Services/Services";
 
 
 
@@ -12,7 +12,7 @@ const routes = [
     { path: "/about", element: <About />,},
     { path: "/contact", element: <Contact />,},
     { path: "/signUp", element: <SignUp />,},
-    { path: "/products", element: <Products/>,},  
+    { path: "/services", element: <Services/>,},  
 ];
 
 export default routes;

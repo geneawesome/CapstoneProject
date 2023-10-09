@@ -22,8 +22,8 @@ function TopNav() {
       name: "Contact",
     },
     {
-      path: "/products",
-      name: "Products",
+      path: "/services",
+      name: "Services",
     },
   ];
   return (
