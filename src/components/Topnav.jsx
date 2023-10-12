@@ -11,16 +11,16 @@ function TopNav() {
     //     path:'/home',
     //     name: "Home"
     // },
+    {
+      path: "/video",
+      name: "Video",
+    },
 
     {
       path: "/about",
       name: "About",
     },
 
-    {
-      path: "/contact",
-      name: "Contact",
-    },
     {
       path: "/services",
       name: "Services",
@@ -30,7 +30,7 @@ function TopNav() {
     <Navbar bg="light" expand="lg">
       <Container>
         <Navbar.Brand as={Link} to="/" className="brand gadgetgrove-logo">
-        GadgetGrove
+          FriendLink
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
@@ -41,18 +41,16 @@ function TopNav() {
               </NavLink>
             ))}
           </Nav>
-          {
+          {/* {
             <Nav className="ms-auto">
               <button
                 onClick={() => TopNav("/SignUp")}
                 className="btn btn-success"
-                
               >
                 Sign Up
               </button>
-              
             </Nav>
-          }
+          } */}
         </Navbar.Collapse>
       </Container>
     </Navbar>
