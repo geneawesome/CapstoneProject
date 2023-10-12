@@ -2,8 +2,6 @@ import { Container, Navbar, Nav, NavLink, Form } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Link } from "react-router-dom";
 import "./Topnav.css";
-// import { CiSearch } from "react-icons/ci";
-import SearchIcon from "@mui/icons-material/Search";
 import { useNavigate } from "react-router-dom";
 
 function TopNav() {
@@ -32,10 +30,9 @@ function TopNav() {
   return (
     <Navbar bg="light" expand="lg">
       <Container>
-        <Navbar.Brand as={Link} to="/" className="brand gadgetgrove-logo">
-          FriendLink
+        <Navbar.Brand className="brand gadgetgrove-logo" as={Link} to="/">
           <Form className="d-flex">
-            <SearchIcon />
+            <span>FriendLink</span>
             <Form.Control
               type="search"
               placeholder="Search Friendlink"
