@@ -13,34 +13,35 @@ function TopNav() {
     //     name: "Home"
     // },
     {
-      path: "/video",
-      name: "Video",
+      path: "/notifications",
+      name: "Notifications",
     },
 
     {
-      path: "/about",
-      name: "About",
+      path: "/profile",
+      name: "Profile",
     },
 
-    {
-      path: "/services",
-      name: "Services",
-    },
+    // {
+    //   path: "/services",
+    //   name: "Services",
+    // },
   ];
   return (
     <Navbar bg="light" expand="lg">
+      <Navbar.Brand className="brand gadgetgrove-logo" as={Link} to="/">
+        <span>FriendLink</span>
+      </Navbar.Brand>
       <Container>
-        <Navbar.Brand className="brand gadgetgrove-logo" as={Link} to="/">
-          <Form className="d-flex">
-            <span>FriendLink</span>
-            <Form.Control
-              type="search"
-              placeholder="Search Friendlink"
-              className="me-2"
-              aria-label="Search"
-            />
-          </Form>
-        </Navbar.Brand>
+        <Form className="d-flex">
+          <Form.Control
+            type="search"
+            placeholder="Search Friendlink"
+            className="me-2"
+            aria-label="Search"
+          />
+        </Form>
+
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">

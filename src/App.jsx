@@ -9,7 +9,6 @@ const App = () => {
   return (
     <div className="App">
       <TopNav />
-
       <Routes>
         {routes.map((route, index) => {
           return (
