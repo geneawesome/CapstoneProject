@@ -3,6 +3,7 @@ import Profile from "./views/Profile/Profile";
 import Notifications from "./views/Notifications/Notifications";
 import SignUp from "./views/SignUp/SignUp";
 import Services from "./views/Services/Services";
+import Login from "./views/Login/Login";
 
 const routes = [
   { path: "/", element: <Home /> },
@@ -10,6 +11,7 @@ const routes = [
   { path: "/Notifications", element: <Notifications /> },
   { path: "/signUp", element: <SignUp /> },
   { path: "/services", element: <Services /> },
+  { path: "/LogIn", element: <Login /> },
 ];
 
 export default routes;

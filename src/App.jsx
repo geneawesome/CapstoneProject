@@ -1,5 +1,6 @@
 import TopNav from "./components/Topnav";
 import { Routes, Route } from "react-router-dom";
+import Login from "./views/Login/Login";
 import routes from "./routes";
 import "./App.css";
 
@@ -9,6 +10,7 @@ const App = () => {
   return (
     <div className="App">
       <TopNav />
+      <Login />
       <Routes>
         {routes.map((route, index) => {
           return (

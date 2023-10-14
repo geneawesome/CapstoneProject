@@ -1,0 +1,22 @@
+#Login {
+  /* background-image: url(../../../assets/AboutBG.jpg); */
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.aboutTitle {
+  font-size: 56px;
+  font-weight: 700;
+  color: blue;
+  line-height: 1.2;
+}
+
+.aboutDescription {
+  font-size: 30px;
+  margin: 15px 0 30px;
+  color: black;
+}
