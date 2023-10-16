@@ -12,16 +12,14 @@ function TopNav() {
     //     path:'/home',
     //     name: "Home"
     // },
-    {
-      path: "/notifications",
-      name: "Notifications",
-    },
-
-    {
-      path: "/profile",
-      name: "Profile",
-    },
-
+    // {
+    //   path: "/notifications",
+    //   name: "Notifications",
+    // },
+    // {
+    //   path: "/profile",
+    //   name: "Profile",
+    // },
     // {
     //   path: "/services",
     //   name: "Services",
@@ -51,16 +49,23 @@ function TopNav() {
               </NavLink>
             ))}
           </Nav>
-          {/* {
-            <Nav className="ms-auto">
+          {
+            <Nav className="ms-auto gap-3 ">
               <button
-                onClick={() => TopNav("/SignUp")}
+                onClick={() => TopNav("/Profile")}
                 className="btn btn-success"
               >
-                Sign Up
+                Profile
+              </button>
+
+              <button
+                onClick={() => TopNav("/Logout")}
+                className="btn btn-success"
+              >
+                Logout
               </button>
             </Nav>
-          } */}
+          }
         </Navbar.Collapse>
       </Container>
     </Navbar>
