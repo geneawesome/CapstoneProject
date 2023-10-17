@@ -3,7 +3,7 @@
   display: flex;
   align-items: center;
   padding: 0 10%;
-  background-image: url(../../assets/HomeBg.jpg);
+  /* background-image: url(../../assets/HomeBg.jpg); */
   background-repeat: no-repeat;
   background-size: cover;
 }

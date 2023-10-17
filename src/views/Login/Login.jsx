@@ -7,7 +7,7 @@ import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import InputGroup from "react-bootstrap/InputGroup";
 import Form from "react-bootstrap/Form";
-
+import { Link } from "react-router-dom";
 const Login = (props) => {
   return (
     <section id="Login">
@@ -36,11 +36,18 @@ const Login = (props) => {
                     aria-describedby="basic-addon2"
                   />
                 </InputGroup>
-                <div className="d-flex flex-column">
+                <div className="d-flex gap-3 justify-content-center">
                   <Button onClick={props.authenticate} variant="primary">
                     Log In
                   </Button>
-                  <Card.Link href="#">Forget password?</Card.Link>
+                  <Button
+                    as={Link}
+                    to="/signUp"
+                    onClick={props.authenticate}
+                    variant="primary"
+                  >
+                    Sign Up
+                  </Button>
                 </div>
               </Card.Body>
             </Card>

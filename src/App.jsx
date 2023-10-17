@@ -1,6 +1,7 @@
 import TopNav from "./components/Topnav";
 import { Routes, Route } from "react-router-dom";
 import Login from "./views/Login/Login";
+import SignUp from "./views/SignUp/SignUp";
 import routes from "./routes";
 import "./App.css";
 import { useState } from "react";
@@ -18,6 +19,7 @@ const App = () => {
       {isAuth ? (
         <>
           <TopNav />
+          {/* <SignUp /> */}
           <Routes>
             {routes.map((route, index) => {
               return (
