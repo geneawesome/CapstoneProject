@@ -4,7 +4,7 @@ import password_icon from "../../assets/password.png";
 
 import "./Signup.css";
 import { useState } from "react";
-const SignUp = () => {
+const SignUp = (props) => {
   const [action, setAction] = useState("SignUp");
   return (
     <section className="Signupbody">
@@ -40,9 +40,7 @@ const SignUp = () => {
           <div className="submit-container">
             <div
               className={action === "SignUp" ? "submit gray" : "submit"}
-              onClick={() => {
-                setAction("SignUp");
-              }}
+              onClick={props.authenticate}
             >
               Sign Up
             </div>

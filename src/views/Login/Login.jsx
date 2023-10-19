@@ -40,12 +40,7 @@ const Login = (props) => {
                   <Button onClick={props.authenticate} variant="primary">
                     Log In
                   </Button>
-                  <Button
-                    as={Link}
-                    to="/signUp"
-                    onClick={props.authenticate}
-                    variant="primary"
-                  >
+                  <Button as={Link} to="/signUp" variant="primary">
                     Sign Up
                   </Button>
                 </div>

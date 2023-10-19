@@ -4,27 +4,10 @@ import { Link } from "react-router-dom";
 import "./Topnav.css";
 import { useNavigate } from "react-router-dom";
 
-function TopNav() {
+function TopNav(props) {
   const TopNav = useNavigate();
 
-  const menuData = [
-    //   {
-    //     path:'/home',
-    //     name: "Home"
-    // },
-    // {
-    //   path: "/notifications",
-    //   name: "Notifications",
-    // },
-    // {
-    //   path: "/profile",
-    //   name: "Profile",
-    // },
-    // {
-    //   path: "/services",
-    //   name: "Services",
-    // },
-  ];
+  const menuData = [];
   return (
     <Navbar bg="light" expand="lg">
       <Navbar.Brand className="brand gadgetgrove-logo" as={Link} to="/">
@@ -58,10 +41,7 @@ function TopNav() {
                 Profile
               </button>
 
-              <button
-                onClick={() => TopNav("/Logout")}
-                className="btn btn-success"
-              >
+              <button onClick={props.logoutHandler} className="btn btn-success">
                 Logout
               </button>
             </Nav>

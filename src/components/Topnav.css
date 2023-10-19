@@ -1,7 +1,7 @@
 .navbar {
   text-decoration: none;
   font-weight: 400;
-  background-color: #2e3532 !important;
+  background-color: rgb(77, 77, 77) !important;
 }
 
 .brand,
@@ -34,8 +34,8 @@
   font-size: 18px;
 }
 
-.btn-success:hover {
+/* .btn-success:hover {
   background-color: transparent;
   color: #d2b48c;
   border: solid 2px #d2b48c;
-}
+} */
