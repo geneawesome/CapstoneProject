@@ -14,9 +14,9 @@ const Login = (props) => {
       <Container fluid>
         <Row>
           <Col>
-            <h1 className="aboutTitle">FriendLinker</h1>
+            <h1 className="aboutTitle">FriendLink</h1>
             <p className="aboutDescription">
-              Connect with friends and the world around you on FriendLinker.
+              Connect with friends and the world around you on FriendLink.
             </p>
           </Col>
           <Col>
