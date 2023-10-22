@@ -5,11 +5,11 @@ import { Routes, Route, useNavigate } from "react-router-dom";
 import { unauthenticatedRoutes, authenticatedRoutes } from "./routes";
 import "./App.css";
 import { useEffect, useState } from "react";
+import Profile from "./views/Profile/Profile";
 
 const App = () => {
   const [isAuth, setIsAuth] = useState(false);
   const navigate = useNavigate();
-
   useEffect(() => {
     if (isAuth) {
       navigate("/");
