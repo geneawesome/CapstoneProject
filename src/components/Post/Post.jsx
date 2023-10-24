@@ -65,7 +65,7 @@ const Post = () => {
           </div>
         </div>
         <div className="postCenter">
-          <span className="postText">Calm and Peaceful view</span>
+          <span className="postText">Relaxing Vibes</span>
           <img className="postImg" src={NatureImg} alt=" " />
         </div>
         <div className="postBottom">
